@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DBF36D33-5729-45D0-B67C-3496D37B1BB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DDB9188E-6768-45D3-86FF-A2D899973553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatFinder.Domain", "src\FlatFinder.Domain\FlatFinder.Domain.csproj", "{EC16A5A6-B27D-41F4-BAA7-5C81DB11E1B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC16A5A6-B27D-41F4-BAA7-5C81DB11E1B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC16A5A6-B27D-41F4-BAA7-5C81DB11E1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC16A5A6-B27D-41F4-BAA7-5C81DB11E1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC16A5A6-B27D-41F4-BAA7-5C81DB11E1B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49953954-6AE5-4B4E-AC7A-3180383FC932}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC16A5A6-B27D-41F4-BAA7-5C81DB11E1B7} = {DBF36D33-5729-45D0-B67C-3496D37B1BB2}
+	EndGlobalSection
+EndGlobal
