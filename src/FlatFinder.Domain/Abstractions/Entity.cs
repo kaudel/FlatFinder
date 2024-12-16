@@ -1,0 +1,32 @@
+﻿using System;
+namespace FlatFinder.Domain.Abstractions
+{
+	public abstract class Entity
+	{
+		private readonly List<IDomainEvent> _domainEvents = new();
+
+		protected Entity(Guid id)
+		{
+			Id = id;
+		}
+
+		//init: una vez creado el valor ya no es modificado
+		public Guid Id { get; init; }
+
+		public IReadOnlyList<IDomainEvent> GetDomainEvents()
+		{
+			return _domainEvents.ToList();
+		}
+
+        public void ClearDomainEvents()
+        {
+			_domainEvents.Clear();
+        }
+
+        public void RaiseDomainEvents(IDomainEvent domainEvent)
+        {
+			_domainEvents.Add(domainEvent);
+        }
+    }
+}
+
