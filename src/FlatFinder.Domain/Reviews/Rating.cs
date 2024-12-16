@@ -20,3 +20,4 @@ namespace FlatFinder.Domain.Reviews
 	}
 }
 
+   
